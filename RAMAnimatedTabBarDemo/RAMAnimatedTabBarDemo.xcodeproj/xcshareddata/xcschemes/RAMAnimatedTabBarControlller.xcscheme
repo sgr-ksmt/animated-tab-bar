@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CE4146711A1B923D0037F03C"
-               BuildableName = "RAMAnimatedTabBarDemo.app"
-               BlueprintName = "RAMAnimatedTabBarDemo"
+               BlueprintIdentifier = "4D5CCC451C8FD78B0088970C"
+               BuildableName = "RAMAnimatedTabBarControlller.framework"
+               BlueprintName = "RAMAnimatedTabBarControlller"
                ReferencedContainer = "container:RAMAnimatedTabBarDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CE4146861A1B923D0037F03C"
-               BuildableName = "RAMAnimatedTabBarDemoTests.xctest"
-               BlueprintName = "RAMAnimatedTabBarDemoTests"
-               ReferencedContainer = "container:RAMAnimatedTabBarDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CE4146711A1B923D0037F03C"
-            BuildableName = "RAMAnimatedTabBarDemo.app"
-            BlueprintName = "RAMAnimatedTabBarDemo"
-            ReferencedContainer = "container:RAMAnimatedTabBarDemo.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -61,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CE4146711A1B923D0037F03C"
-            BuildableName = "RAMAnimatedTabBarDemo.app"
-            BlueprintName = "RAMAnimatedTabBarDemo"
+            BlueprintIdentifier = "4D5CCC451C8FD78B0088970C"
+            BuildableName = "RAMAnimatedTabBarControlller.framework"
+            BlueprintName = "RAMAnimatedTabBarControlller"
             ReferencedContainer = "container:RAMAnimatedTabBarDemo.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CE4146711A1B923D0037F03C"
-            BuildableName = "RAMAnimatedTabBarDemo.app"
-            BlueprintName = "RAMAnimatedTabBarDemo"
+            BlueprintIdentifier = "4D5CCC451C8FD78B0088970C"
+            BuildableName = "RAMAnimatedTabBarControlller.framework"
+            BlueprintName = "RAMAnimatedTabBarControlller"
             ReferencedContainer = "container:RAMAnimatedTabBarDemo.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

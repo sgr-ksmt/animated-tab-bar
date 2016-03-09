@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D5CCC491C8FD78B0088970C /* RAMAnimatedTabBarControlller.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5CCC481C8FD78B0088970C /* RAMAnimatedTabBarControlller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D5CCC501C8FD78B0088970C /* RAMAnimatedTabBarControlller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5CCC461C8FD78B0088970C /* RAMAnimatedTabBarControlller.framework */; };
+		4D5CCC5B1C8FD78B0088970C /* RAMAnimatedTabBarControlller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5CCC461C8FD78B0088970C /* RAMAnimatedTabBarControlller.framework */; };
+		4D5CCC5C1C8FD78B0088970C /* RAMAnimatedTabBarControlller.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5CCC461C8FD78B0088970C /* RAMAnimatedTabBarControlller.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D5CCC641C8FD87D0088970C /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC64211C22E4C800B89B79 /* RAMBadge.swift */; };
+		4D5CCC651C8FD8820088970C /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A83F1A1C7C14002D8931 /* RAMAnimatedTabBarController.swift */; };
+		4D5CCC661C8FD8A00088970C /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E056BD1A2DD57600F33DDA /* RAMFumeAnimation.swift */; };
+		4D5CCC671C8FD8A20088970C /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A8781A1CE200002D8931 /* RAMBounceAnimation.swift */; };
+		4D5CCC681C8FD8A50088970C /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A8421A1C8DD3002D8931 /* RAMRotationAnimation.swift */; };
+		4D5CCC691C8FD8A70088970C /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE41469A1A1B944D0037F03C /* RAMFrameItemAnimation.swift */; };
+		4D5CCC6A1C8FD8A90088970C /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE41469C1A1B944D0037F03C /* RAMTransitionItemAnimations.swift */; };
+		4D5CCC6B1C8FD8AE0088970C /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE41469D1A1B944D0037F03C /* RAMItemAnimationProtocol.swift */; };
 		84BC64221C22E4C800B89B79 /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC64211C22E4C800B89B79 /* RAMBadge.swift */; };
 		CE4146781A1B923D0037F03C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4146771A1B923D0037F03C /* AppDelegate.swift */; };
 		CE41467A1A1B923D0037F03C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4146791A1B923D0037F03C /* ViewController.swift */; };
@@ -25,6 +37,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4D5CCC511C8FD78B0088970C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE41466A1A1B923D0037F03C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D5CCC451C8FD78B0088970C;
+			remoteInfo = RAMAnimatedTabBarControlller;
+		};
+		4D5CCC531C8FD78B0088970C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE41466A1A1B923D0037F03C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE4146711A1B923D0037F03C;
+			remoteInfo = RAMAnimatedTabBarDemo;
+		};
+		4D5CCC591C8FD78B0088970C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE41466A1A1B923D0037F03C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D5CCC451C8FD78B0088970C;
+			remoteInfo = RAMAnimatedTabBarControlller;
+		};
 		CE4146881A1B923D0037F03C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE41466A1A1B923D0037F03C /* Project object */;
@@ -34,7 +67,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4D5CCC621C8FD78C0088970C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4D5CCC5C1C8FD78B0088970C /* RAMAnimatedTabBarControlller.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4D5CCC461C8FD78B0088970C /* RAMAnimatedTabBarControlller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RAMAnimatedTabBarControlller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5CCC481C8FD78B0088970C /* RAMAnimatedTabBarControlller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAMAnimatedTabBarControlller.h; sourceTree = "<group>"; };
+		4D5CCC4A1C8FD78B0088970C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5CCC4F1C8FD78B0088970C /* RAMAnimatedTabBarControlllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAMAnimatedTabBarControlllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BC64211C22E4C800B89B79 /* RAMBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBadge.swift; sourceTree = "<group>"; };
 		CE4146721A1B923D0037F03C /* RAMAnimatedTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAMAnimatedTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4146761A1B923D0037F03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,10 +108,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4D5CCC421C8FD78B0088970C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5CCC4C1C8FD78B0088970C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5CCC501C8FD78B0088970C /* RAMAnimatedTabBarControlller.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE41466F1A1B923D0037F03C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D5CCC5B1C8FD78B0088970C /* RAMAnimatedTabBarControlller.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +141,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D5CCC471C8FD78B0088970C /* RAMAnimatedTabBarControlller */ = {
+			isa = PBXGroup;
+			children = (
+				4D5CCC481C8FD78B0088970C /* RAMAnimatedTabBarControlller.h */,
+				4D5CCC4A1C8FD78B0088970C /* Info.plist */,
+			);
+			path = RAMAnimatedTabBarControlller;
+			sourceTree = "<group>";
+		};
 		84BC64201C22E41F00B89B79 /* RAMBadge */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +163,7 @@
 			children = (
 				CE4146741A1B923D0037F03C /* RAMAnimatedTabBarDemo */,
 				CE41468A1A1B923D0037F03C /* RAMAnimatedTabBarDemoTests */,
+				4D5CCC471C8FD78B0088970C /* RAMAnimatedTabBarControlller */,
 				CE4146731A1B923D0037F03C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +173,8 @@
 			children = (
 				CE4146721A1B923D0037F03C /* RAMAnimatedTabBarDemo.app */,
 				CE4146871A1B923D0037F03C /* RAMAnimatedTabBarDemoTests.xctest */,
+				4D5CCC461C8FD78B0088970C /* RAMAnimatedTabBarControlller.framework */,
+				4D5CCC4F1C8FD78B0088970C /* RAMAnimatedTabBarControlllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -214,7 +293,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		4D5CCC431C8FD78B0088970C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5CCC491C8FD78B0088970C /* RAMAnimatedTabBarControlller.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		4D5CCC451C8FD78B0088970C /* RAMAnimatedTabBarControlller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5CCC611C8FD78C0088970C /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarControlller" */;
+			buildPhases = (
+				4D5CCC411C8FD78B0088970C /* Sources */,
+				4D5CCC421C8FD78B0088970C /* Frameworks */,
+				4D5CCC431C8FD78B0088970C /* Headers */,
+				4D5CCC441C8FD78B0088970C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAMAnimatedTabBarControlller;
+			productName = RAMAnimatedTabBarControlller;
+			productReference = 4D5CCC461C8FD78B0088970C /* RAMAnimatedTabBarControlller.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D5CCC4E1C8FD78B0088970C /* RAMAnimatedTabBarControlllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5CCC631C8FD78C0088970C /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarControlllerTests" */;
+			buildPhases = (
+				4D5CCC4B1C8FD78B0088970C /* Sources */,
+				4D5CCC4C1C8FD78B0088970C /* Frameworks */,
+				4D5CCC4D1C8FD78B0088970C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5CCC521C8FD78B0088970C /* PBXTargetDependency */,
+				4D5CCC541C8FD78B0088970C /* PBXTargetDependency */,
+			);
+			name = RAMAnimatedTabBarControlllerTests;
+			productName = RAMAnimatedTabBarControlllerTests;
+			productReference = 4D5CCC4F1C8FD78B0088970C /* RAMAnimatedTabBarControlllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CE4146711A1B923D0037F03C /* RAMAnimatedTabBarDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE4146911A1B923D0037F03C /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarDemo" */;
@@ -223,10 +350,12 @@
 				CE41466F1A1B923D0037F03C /* Frameworks */,
 				CE4146701A1B923D0037F03C /* Resources */,
 				847D23E81C63319B0085E882 /* SwiftLint */,
+				4D5CCC621C8FD78C0088970C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4D5CCC5A1C8FD78B0088970C /* PBXTargetDependency */,
 			);
 			name = RAMAnimatedTabBarDemo;
 			productName = RAMAnimatedTabBarDemo;
@@ -257,10 +386,17 @@
 		CE41466A1A1B923D0037F03C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Ramotion;
 				TargetAttributes = {
+					4D5CCC451C8FD78B0088970C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4D5CCC4E1C8FD78B0088970C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CE4146711A1B923D0037F03C;
+					};
 					CE4146711A1B923D0037F03C = {
 						CreatedOnToolsVersion = 6.1;
 					};
@@ -285,11 +421,27 @@
 			targets = (
 				CE4146711A1B923D0037F03C /* RAMAnimatedTabBarDemo */,
 				CE4146861A1B923D0037F03C /* RAMAnimatedTabBarDemoTests */,
+				4D5CCC451C8FD78B0088970C /* RAMAnimatedTabBarControlller */,
+				4D5CCC4E1C8FD78B0088970C /* RAMAnimatedTabBarControlllerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4D5CCC441C8FD78B0088970C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5CCC4D1C8FD78B0088970C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE4146701A1B923D0037F03C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,6 +480,28 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4D5CCC411C8FD78B0088970C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5CCC641C8FD87D0088970C /* RAMBadge.swift in Sources */,
+				4D5CCC6A1C8FD8A90088970C /* RAMTransitionItemAnimations.swift in Sources */,
+				4D5CCC6B1C8FD8AE0088970C /* RAMItemAnimationProtocol.swift in Sources */,
+				4D5CCC661C8FD8A00088970C /* RAMFumeAnimation.swift in Sources */,
+				4D5CCC651C8FD8820088970C /* RAMAnimatedTabBarController.swift in Sources */,
+				4D5CCC671C8FD8A20088970C /* RAMBounceAnimation.swift in Sources */,
+				4D5CCC691C8FD8A70088970C /* RAMFrameItemAnimation.swift in Sources */,
+				4D5CCC681C8FD8A50088970C /* RAMRotationAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5CCC4B1C8FD78B0088970C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE41466E1A1B923D0037F03C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,6 +530,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4D5CCC521C8FD78B0088970C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D5CCC451C8FD78B0088970C /* RAMAnimatedTabBarControlller */;
+			targetProxy = 4D5CCC511C8FD78B0088970C /* PBXContainerItemProxy */;
+		};
+		4D5CCC541C8FD78B0088970C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE4146711A1B923D0037F03C /* RAMAnimatedTabBarDemo */;
+			targetProxy = 4D5CCC531C8FD78B0088970C /* PBXContainerItemProxy */;
+		};
+		4D5CCC5A1C8FD78B0088970C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D5CCC451C8FD78B0088970C /* RAMAnimatedTabBarControlller */;
+			targetProxy = 4D5CCC591C8FD78B0088970C /* PBXContainerItemProxy */;
+		};
 		CE4146891A1B923D0037F03C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CE4146711A1B923D0037F03C /* RAMAnimatedTabBarDemo */;
@@ -383,6 +572,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4D5CCC5D1C8FD78C0088970C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = RAMAnimatedTabBarControlller/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.RAMAnimatedTabBarControlller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D5CCC5E1C8FD78C0088970C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = RAMAnimatedTabBarControlller/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.RAMAnimatedTabBarControlller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D5CCC5F1C8FD78C0088970C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = RAMAnimatedTabBarControlllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.RAMAnimatedTabBarControlllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAMAnimatedTabBarDemo.app/RAMAnimatedTabBarDemo";
+			};
+			name = Debug;
+		};
+		4D5CCC601C8FD78C0088970C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = RAMAnimatedTabBarControlllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.RAMAnimatedTabBarControlllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAMAnimatedTabBarDemo.app/RAMAnimatedTabBarDemo";
+			};
+			name = Release;
+		};
 		CE41468F1A1B923D0037F03C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -470,6 +733,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = RAMAnimatedTabBarDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -486,6 +750,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = RAMAnimatedTabBarDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -528,6 +793,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4D5CCC611C8FD78C0088970C /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarControlller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5CCC5D1C8FD78C0088970C /* Debug */,
+				4D5CCC5E1C8FD78C0088970C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D5CCC631C8FD78C0088970C /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarControlllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5CCC5F1C8FD78C0088970C /* Debug */,
+				4D5CCC601C8FD78C0088970C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		CE41466D1A1B923D0037F03C /* Build configuration list for PBXProject "RAMAnimatedTabBarDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
